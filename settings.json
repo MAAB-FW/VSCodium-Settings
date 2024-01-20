@@ -1,0 +1,36 @@
+{
+    "liveServer.settings.donotShowInfoMsg": true,
+    "files.autoSave": "afterDelay",
+    "editor.fontLigatures": true,
+    "explorer.confirmDragAndDrop": false,
+    "editor.fontFamily": "'Operator Mono','Source Code Pro', Fira Code, Consolas, 'Courier New', monospace",
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "workbench.startupEditor": "none",
+    "editor.fontSize": 18, 
+    "cSpell.userWords": [
+        "asdfasdf"
+    ],
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "codeSTACKr Theme",
+    "editor.quickSuggestions": {
+        "strings": "on"
+    },
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontFamily": "Consolas, Source Code Pro, Cascadia Code, Fira Code, Operator Mono",
+    "editor.minimap.autohide": true,
+    "editor.wordWrap": "on",
+    "workbench.editor.enablePreview": false,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "expand",
+    "editor.minimap.renderCharacters": false,
+    "editor.linkedEditing": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    
+}
