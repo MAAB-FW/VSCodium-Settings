@@ -20,7 +20,7 @@
     "editor.quickSuggestions": {
         "strings": "on"
     },
-    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontSize": 18,
     "terminal.integrated.fontFamily": "Consolas, Source Code Pro, Cascadia Code, Fira Code, Operator Mono",
     "editor.minimap.autohide": true,
     "editor.wordWrap": "on",
@@ -32,5 +32,6 @@
     "[javascript]": {
         "editor.defaultFormatter": "HookyQR.beautify"
     },
+    "window.zoomLevel": -1,
     
 }
