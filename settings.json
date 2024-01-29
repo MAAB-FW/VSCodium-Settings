@@ -1,37 +1,41 @@
 {
-    "liveServer.settings.donotShowInfoMsg": true,
+    /* <---- General Settings ----> */
     "files.autoSave": "afterDelay",
-    "editor.fontLigatures": true,
-    "explorer.confirmDragAndDrop": false,
-    "editor.fontFamily": "'Operator Mono','Source Code Pro', Fira Code, Consolas, 'Courier New', monospace",
-    "[html]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
-    },
-    "[css]": {
-        "editor.defaultFormatter": "vscode.css-language-features"
-    },
-    "workbench.startupEditor": "none",
-    "editor.fontSize": 18, 
-    "cSpell.userWords": [
-        "asdfasdf"
-    ],
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "codeSTACKr Theme",
-    "editor.quickSuggestions": {
-        "strings": "on"
-    },
-    "terminal.integrated.fontSize": 18,
-    "terminal.integrated.fontFamily": "Consolas, Source Code Pro, Cascadia Code, Fira Code, Operator Mono",
-    "editor.minimap.autohide": true,
     "editor.wordWrap": "on",
-    "workbench.editor.enablePreview": false,
+    "editor.minimap.autohide": true,
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.cursorBlinking": "expand",
     "editor.minimap.renderCharacters": false,
     "editor.linkedEditing": false,
-    "[javascript]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.fontLigatures": true,
+    "editor.fontSize": 18,
+    "editor.quickSuggestions": {
+        "strings": "on"
     },
-    "window.zoomLevel": -1,
-    
+    "editor.fontFamily": "Fira Code, Operator Mono, Source Code Pro, Consolas, Courier New, Monospace, Cascadia Code",
+    /* <---- Formatter ----> */
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    /* <---- Workbench ----> */
+    "workbench.colorTheme": "codeSTACKr Theme",
+    "workbench.startupEditor": "none",
+    "workbench.editor.enablePreview": false,
+    /* <---- Terminal ----> */
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontFamily": "Fira Code, Operator Mono, Source Code Pro, Consolas, Courier New, Monospace, Cascadia Code",
+    /* <---- Extensions ----> */
+    "liveServer.settings.donotShowInfoMsg": true,
+    "prettier.tabWidth": 4
 }
