@@ -17,16 +17,16 @@
     "editor.fontFamily": "Fira Code, Operator Mono, Source Code Pro, Consolas, Courier New, Monospace, Cascadia Code",
     /* <---- Formatter ----> */
     "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "vscode.html-language-features"
     },
     "[css]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "vscode.css-language-features"
     },
     "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "vscode.json-language-features"
     },
     /* <---- Workbench ----> */
     "workbench.colorTheme": "codeSTACKr Theme",
@@ -37,5 +37,4 @@
     "terminal.integrated.fontFamily": "Fira Code, Operator Mono, Source Code Pro, Consolas, Courier New, Monospace, Cascadia Code",
     /* <---- Extensions ----> */
     "liveServer.settings.donotShowInfoMsg": true,
-    "prettier.tabWidth": 4
 }
