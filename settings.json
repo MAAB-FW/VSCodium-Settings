@@ -1,6 +1,7 @@
 {
-    /* <---- General Settings ----> */
-    "files.autoSave": "afterDelay",
+    /* <------------ General Settings ------------> */
+    "files.autoSave": "onFocusChange",
+    "editor.formatOnSave": true,
     "editor.wordWrap": "on",
     "editor.minimap.autohide": true,
     "editor.cursorSmoothCaretAnimation": "on",
@@ -15,7 +16,7 @@
         "strings": "on"
     },
     "editor.fontFamily": "Fira Code, Operator Mono, Source Code Pro, Consolas, Courier New, Monospace, Cascadia Code",
-    /* <---- Formatter ----> */
+    /* <------------ Formatter ------------> */
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
     },
@@ -28,13 +29,13 @@
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
-    /* <---- Workbench ----> */
+    /* <------------ Workbench ------------> */
     "workbench.colorTheme": "codeSTACKr Theme",
     "workbench.startupEditor": "none",
     "workbench.editor.enablePreview": false,
-    /* <---- Terminal ----> */
+    /* <------------ Terminal ------------> */
     "terminal.integrated.fontSize": 16,
     "terminal.integrated.fontFamily": "Fira Code, Operator Mono, Source Code Pro, Consolas, Courier New, Monospace, Cascadia Code",
-    /* <---- Extensions ----> */
+    /* <------------ Extensions ------------> */
     "liveServer.settings.donotShowInfoMsg": true,
 }
