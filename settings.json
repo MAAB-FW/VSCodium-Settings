@@ -15,6 +15,7 @@
     "editor.quickSuggestions": {
         "strings": "on"
     },
+    
     "editor.fontFamily": "Jetbrains Mono, Fira Code, Operator Mono, Source Code Pro, Consolas, Courier New, Monospace, Cascadia Code",
     /* <------------ Formatter ------------> */
     "[html]": {
