@@ -1,21 +1,23 @@
 {
     /* <------------ General Settings ------------> */
     "files.autoSave": "afterDelay",
-    "editor.formatOnSave": true,
+    "editor.fontSize": 18,
     "editor.wordWrap": "on",
+    "editor.formatOnSave": true,
     "editor.minimap.autohide": true,
-    "editor.cursorSmoothCaretAnimation": "on",
-    "editor.cursorBlinking": "expand",
+    "editor.minimap.showSlider": "always",
     "editor.minimap.renderCharacters": false,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.smoothScrolling": true,
+    "editor.cursorBlinking": "expand",
     "editor.linkedEditing": false,
+    "editor.fontLigatures": true,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
-    "editor.fontLigatures": true,
-    "editor.fontSize": 18,
     "editor.quickSuggestions": {
         "strings": "on"
     },
-    "editor.fontFamily": "Jetbrains Mono, Fira Code, Operator Mono, Source Code Pro, Consolas, Courier New, Monospace, Cascadia Code",
+    "editor.fontFamily": "Lilex, Jetbrains Mono, Fira Code, Operator Mono, Source Code Pro, Consolas, Courier New, Monospace, Cascadia Code",
     /* <------------ Formatter ------------> */
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
@@ -30,8 +32,9 @@
         "editor.defaultFormatter": "vscode.json-language-features"
     },
     /* <------------ Workbench ------------> */
-    "workbench.colorTheme": "codeSTACKr Theme",
+    "workbench.colorTheme": "Learn with Sumit - Peace of the eye",
     "workbench.startupEditor": "none",
+    "workbench.list.smoothScrolling": true,
     "workbench.editor.enablePreview": false,
     "workbench.colorCustomizations": {
         // "terminal.background": "#1D2021",
@@ -57,8 +60,9 @@
     },
     /* <------------ Terminal ------------> */
     "terminal.integrated.fontSize": 16,
-    "terminal.integrated.fontFamily": "Jetbrains Mono, Fira Code, Operator Mono, Source Code Pro, Consolas, Courier New, Monospace, Cascadia Codej",
+    "terminal.integrated.smoothScrolling": true,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "terminal.integrated.fontFamily": "Jetbrains Mono, Fira Code, Lilex, Operator Mono, Source Code Pro, Consolas, Courier New, Monospace, Cascadia Code",
     /* <------------ Extensions ------------> */
     "liveServer.settings.donotShowInfoMsg": true,
-    "terminal.integrated.enableMultiLinePasteWarning": false,
 }
