@@ -1,7 +1,7 @@
 {
     /* <------------ General Settings ------------> */
     "files.autoSave": "afterDelay",
-    "editor.fontSize": 18,
+    "editor.fontSize": 16,
     "editor.wordWrap": "on",
     "editor.formatOnSave": true,
     "editor.minimap.autohide": true,
@@ -12,12 +12,78 @@
     "editor.cursorBlinking": "expand",
     "editor.linkedEditing": false,
     "editor.fontLigatures": true,
+    "editor.guides.bracketPairsHorizontal": true,
+    "editor.guides.bracketPairs": true,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    // the following elements will be in italic //
+                    "comment",
+                    // "comment.block.html",
+                    "keyword.control.import.js", // import
+                    "keyword.control.export.js", // export
+                    "keyword.control.from.js", // from
+                    // "constant", // String, Number, Boolean…, this, super
+                    "storage.modifier", // static keyword
+                    "storage.type.class", // class keyword
+                    "entity.other.attribute-name", // html attributes
+                    "fenced_code.block.language.markdown" // markdown language modifier
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": [
+                    // the following elements will be displayed in bold
+                    "entity.name.function.js",
+                    "entity.name.type.class" // class names
+                ],
+                "settings": {
+                    "fontStyle": "bold"
+                },
+            },
+            {
+                "scope": [
+                    // the following elements will be displayed in bold and italic
+                    "entity.other.attribute-name.html",
+                    "storage.type.js",
+                    "entity.name.section.markdown" // markdown headlines
+                    ,
+                    "storage.type.function.js"
+                ],
+                "settings": {
+                    "fontStyle": "italic bold"
+                }
+            },
+            {
+                "scope": [
+                    // the following elements will be excluded from italics 
+                    //   (VSCode has some defaults for italics)
+                    "invalid",
+                    "keyword.operator",
+                    "constant.numeric.css",
+                    "keyword.other.unit.px.css",
+                    "constant.numeric.decimal.js",
+                    "constant.numeric.json",
+                    "comment.block",
+                    "entity.other.attribute-name.class.css",
+                    "comment.block.js",
+                    "comment.line.double-slash.js",
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
+    },
     "editor.quickSuggestions": {
         "strings": "on"
     },
-    "editor.fontFamily": "Lilex, Jetbrains Mono, Fira Code, Operator Mono, Source Code Pro, Consolas, Courier New, Monospace, Cascadia Code",
+    "editor.fontFamily": "Fira Code iScript, Lilex, Fira Code, Jetbrains Mono, Operator Mono, Source Code Pro, Consolas, Courier New, Monospace, Cascadia Code",
     /* <------------ Formatter ------------> */
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
@@ -32,37 +98,40 @@
         "editor.defaultFormatter": "vscode.json-language-features"
     },
     /* <------------ Workbench ------------> */
-    "workbench.colorTheme": "Learn with Sumit - Peace of the eye",
+    "workbench.colorTheme": "codeSTACKr Theme",
     "workbench.startupEditor": "none",
     "workbench.list.smoothScrolling": true,
     "workbench.editor.enablePreview": false,
-    "workbench.colorCustomizations": {
-        // "terminal.background": "#1D2021",
-        "terminal.foreground": "#A89984",
-        "terminalCursor.background": "#A89984",
-        "terminalCursor.foreground": "#A89984",
-        "terminal.ansiBlack": "#1D2021",
-        "terminal.ansiBlue": "#0D6678",
-        "terminal.ansiBrightBlack": "#665C54",
-        "terminal.ansiBrightBlue": "#0D6678",
-        "terminal.ansiBrightCyan": "#8BA59B",
-        "terminal.ansiBrightGreen": "#95C085",
-        "terminal.ansiBrightMagenta": "#8F4673",
-        "terminal.ansiBrightRed": "#FB543F",
-        "terminal.ansiBrightWhite": "#FDF4C1",
-        "terminal.ansiBrightYellow": "#FAC03B",
-        "terminal.ansiCyan": "#8BA59B",
-        "terminal.ansiGreen": "#95C085",
-        "terminal.ansiMagenta": "#8F4673",
-        "terminal.ansiRed": "#FB543F",
-        "terminal.ansiWhite": "#A89984",
-        "terminal.ansiYellow": "#FAC03B"
-    },
+    // "workbench.colorCustomizations": {
+    //     // "terminal.background": "#1D2021",
+    //     "terminal.foreground": "#A89984",
+    //     "terminalCursor.background": "#A89984",
+    //     "terminalCursor.foreground": "#A89984",
+    //     "terminal.ansiBlack": "#1D2021",
+    //     "terminal.ansiBlue": "#0D6678",
+    //     "terminal.ansiBrightBlack": "#665C54",
+    //     "terminal.ansiBrightBlue": "#0D6678",
+    //     "terminal.ansiBrightCyan": "#8BA59B",
+    //     "terminal.ansiBrightGreen": "#95C085",
+    //     "terminal.ansiBrightMagenta": "#8F4673",
+    //     "terminal.ansiBrightRed": "#FB543F",
+    //     "terminal.ansiBrightWhite": "#FDF4C1",
+    //     "terminal.ansiBrightYellow": "#FAC03B",
+    //     "terminal.ansiCyan": "#8BA59B",
+    //     "terminal.ansiGreen": "#95C085",
+    //     "terminal.ansiMagenta": "#8F4673",
+    //     "terminal.ansiRed": "#FB543F",
+    //     "terminal.ansiWhite": "#A89984",
+    //     "terminal.ansiYellow": "#FAC03B"
+    // },
     /* <------------ Terminal ------------> */
     "terminal.integrated.fontSize": 16,
     "terminal.integrated.smoothScrolling": true,
-    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
     "terminal.integrated.fontFamily": "Jetbrains Mono, Fira Code, Lilex, Operator Mono, Source Code Pro, Consolas, Courier New, Monospace, Cascadia Code",
     /* <------------ Extensions ------------> */
     "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.iconTheme": "vscode-icons",
+    "tabnine.experimentalAutoImports": true,
+
 }
