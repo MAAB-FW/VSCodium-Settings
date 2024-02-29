@@ -8,14 +8,18 @@
     "editor.minimap.showSlider": "always",
     "editor.minimap.renderCharacters": false,
     "editor.cursorSmoothCaretAnimation": "on",
+    "editor.guides.bracketPairsHorizontal": true,
+    "editor.guides.bracketPairs": true,
     "editor.smoothScrolling": true,
     "editor.cursorBlinking": "expand",
     "editor.linkedEditing": false,
     "editor.fontLigatures": true,
-    "editor.guides.bracketPairsHorizontal": true,
-    "editor.guides.bracketPairs": true,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -133,5 +137,4 @@
     "liveServer.settings.donotShowInfoMsg": true,
     "workbench.iconTheme": "vscode-icons",
     "tabnine.experimentalAutoImports": true,
-
 }
