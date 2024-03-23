@@ -1,6 +1,7 @@
 {
-        /* <------------ General Settings ------------> */
+    /* <------------ General Settings ------------> */
     "editor.fontSize": 16,
+    "editor.tabSize": 4,
     "files.autoSave": "afterDelay",
     "editor.wordWrap": "on",
     "editor.formatOnSave": true,
@@ -51,15 +52,14 @@
                 ],
                 "settings": {
                     "fontStyle": "bold"
-                },
+                }
             },
             {
                 // the following elements will be displayed in bold and italic
                 "scope": [
                     "entity.other.attribute-name.html",
                     "storage.type.js",
-                    "entity.name.section.markdown" // markdown headlines
-                    ,
+                    "entity.name.section.markdown", // markdown headlines
                     "storage.type.function.js"
                 ],
                 "settings": {
@@ -67,7 +67,7 @@
                 }
             },
             {
-                // the following elements will be excluded from italics 
+                // the following elements will be excluded from italics
                 "scope": [
                     //   (VSCode has some defaults for italics)
                     "invalid",
@@ -79,7 +79,7 @@
                     "comment.block",
                     "entity.other.attribute-name.class.css",
                     "comment.block.js",
-                    "comment.line.double-slash.js",
+                    "comment.line.double-slash.js"
                 ],
                 "settings": {
                     "fontStyle": ""
@@ -93,21 +93,31 @@
     "editor.fontFamily": "MonoLisa, Fira Code iScript, Lilex, Fira Code, Jetbrains Mono, Operator Mono, Source Code Pro, Consolas, Courier New, Monospace, Cascadia Code",
     /* <------------ Formatter ------------> */
     "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
+        // "editor.defaultFormatter": "vscode.html-language-features"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[css]": {
-        "editor.defaultFormatter": "vscode.css-language-features"
+        // "editor.defaultFormatter": "vscode.css-language-features"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
+        // "editor.defaultFormatter": "vscode.typescript-language-features"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        // "editor.defaultFormatter": "vscode.typescript-language-features"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
+        // "editor.defaultFormatter": "vscode.json-language-features"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     /* <------------ Workbench ------------> */
     "workbench.colorTheme": "codeSTACKr Theme",
     "workbench.iconTheme": "vscode-icons",
     "workbench.startupEditor": "none",
+    "workbench.sideBar.location": "right",
+    "workbench.activityBar.location": "side",
     "workbench.list.smoothScrolling": true,
     "workbench.editor.enablePreview": true,
     // "workbench.colorCustomizations": {
@@ -140,4 +150,24 @@
     /* <------------ Extensions ------------> */
     "liveServer.settings.donotShowInfoMsg": true,
     "tabnine.experimentalAutoImports": true,
+    "prettier.bracketSameLine": true,
+    "prettier.printWidth": 130,
+    "prettier.tabWidth": 4,
+    "prettier.semi": false,
+    "cSpell.userWords": [
+        "autohide",
+        "Cascadia",
+        "Consolas",
+        "daisyui",
+        "donot",
+        "esbenp",
+        "Fira",
+        "Jetbrains",
+        "Lilex",
+        "synthwave",
+        "tabnine",
+        "tailwindcss"
+    ],
+    "terminal.integrated.env.windows": {},
+    "console-ninja.featureSet": "Community"
 }
