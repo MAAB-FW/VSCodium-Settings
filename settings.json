@@ -112,6 +112,10 @@
         // "editor.defaultFormatter": "vscode.json-language-features"
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "[json]": {
+        // "editor.defaultFormatter": "vscode.json-language-features"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     /* <------------ Workbench ------------> */
     "workbench.colorTheme": "codeSTACKr Theme",
     "workbench.iconTheme": "vscode-icons",
@@ -119,7 +123,6 @@
     "workbench.sideBar.location": "right",
     "workbench.activityBar.location": "side",
     "workbench.list.smoothScrolling": true,
-    "workbench.editor.enablePreview": true,
     // "workbench.colorCustomizations": {
     //     // "terminal.background": "#1D2021",
     //     "terminal.foreground": "#A89984",
@@ -148,13 +151,14 @@
     "terminal.integrated.enableMultiLinePasteWarning": "never",
     "terminal.integrated.fontFamily": "MonoLisa, Jetbrains Mono, Fira Code, Lilex, Operator Mono, Source Code Pro, Consolas, Courier New, Monospace, Cascadia Code",
     /* <------------ Extensions ------------> */
-    "liveServer.settings.donotShowInfoMsg": true,
-    "tabnine.experimentalAutoImports": true,
     "prettier.bracketSameLine": true,
     "prettier.printWidth": 130,
     "prettier.tabWidth": 4,
     "prettier.semi": false,
+    // "liveServer.settings.donotShowInfoMsg": true,
+    // "tabnine.experimentalAutoImports": true,
     "cSpell.userWords": [
+        "Alaikum",
         "autohide",
         "Cascadia",
         "Consolas",
@@ -164,10 +168,13 @@
         "Fira",
         "Jetbrains",
         "Lilex",
+        "Salamun",
         "synthwave",
         "tabnine",
         "tailwindcss"
     ],
     "terminal.integrated.env.windows": {},
-    "console-ninja.featureSet": "Community"
+    "console-ninja.featureSet": "Community",
+    "colorize.languages": ["javascript", "javascriptreact", "HTML5", "HTML", "CSS", "JSON", "JSONC"],
+    "colorize.colorized_colors": ["HEXA", "RGB", "HSL", "BROWSERS_COLORS", "ARGB"],
 }
