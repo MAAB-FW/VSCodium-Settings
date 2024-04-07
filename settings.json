@@ -1,5 +1,6 @@
 {
     /* <------------ General Settings ------------> */
+    "update.mode": "manual",
     "editor.fontSize": 16,
     "editor.tabSize": 4,
     "files.autoSave": "afterDelay",
@@ -16,7 +17,7 @@
     "editor.cursorStyle": "line",
     "editor.linkedEditing": false,
     // "editor.fontLigatures": true,
-    "editor.fontLigatures": "'feat','ures','ss02','ss07','ss08'",
+    "editor.fontLigatures": "'feat','ures','ss02','ss07','ss08','liga','ss10','ss03','ss13'",
     "editor.stickyScroll.enabled": false,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
@@ -158,7 +159,6 @@
     // "liveServer.settings.donotShowInfoMsg": true,
     // "tabnine.experimentalAutoImports": true,
     "cSpell.userWords": [
-        "Alaikum",
         "autohide",
         "Cascadia",
         "Consolas",
@@ -176,5 +176,5 @@
     "terminal.integrated.env.windows": {},
     "console-ninja.featureSet": "Community",
     "colorize.languages": ["javascript", "javascriptreact", "HTML5", "HTML", "CSS", "JSON", "JSONC"],
-    "colorize.colorized_colors": ["HEXA", "RGB", "HSL", "BROWSERS_COLORS", "ARGB"],
+    "colorize.colorized_colors": ["HEXA", "RGB", "HSL", "BROWSERS_COLORS", "ARGB"]
 }
