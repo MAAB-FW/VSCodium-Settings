@@ -122,7 +122,7 @@
     "workbench.iconTheme": "vscode-icons",
     "workbench.startupEditor": "none",
     "workbench.sideBar.location": "right",
-    "workbench.activityBar.location": "side",
+    "workbench.activityBar.location": "default",
     "workbench.list.smoothScrolling": true,
     // "workbench.colorCustomizations": {
     //     // "terminal.background": "#1D2021",
@@ -152,10 +152,11 @@
     "terminal.integrated.enableMultiLinePasteWarning": "never",
     "terminal.integrated.fontFamily": "MonoLisa, Jetbrains Mono, Fira Code, Lilex, Operator Mono, Source Code Pro, Consolas, Courier New, Monospace, Cascadia Code",
     /* <------------ Extensions ------------> */
-    "prettier.bracketSameLine": true,
+    "prettier.bracketSameLine": false,
     "prettier.printWidth": 130,
     "prettier.tabWidth": 4,
     "prettier.semi": false,
+    "prettier.trailingComma": "all",
     // "liveServer.settings.donotShowInfoMsg": true,
     // "tabnine.experimentalAutoImports": true,
     "cSpell.userWords": [
@@ -176,5 +177,6 @@
     "terminal.integrated.env.windows": {},
     "console-ninja.featureSet": "Community",
     "colorize.languages": ["javascript", "javascriptreact", "HTML5", "HTML", "CSS", "JSON", "JSONC"],
-    "colorize.colorized_colors": ["HEXA", "RGB", "HSL", "BROWSERS_COLORS", "ARGB"]
+    "colorize.colorized_colors": ["HEXA", "RGB", "HSL", "BROWSERS_COLORS", "ARGB"],
+    "liveServer.settings.donotShowInfoMsg": true
 }
