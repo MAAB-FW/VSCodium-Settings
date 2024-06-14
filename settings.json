@@ -8,6 +8,7 @@
     "editor.formatOnSave": true,
     "editor.minimap.autohide": true,
     "editor.minimap.showSlider": "always",
+    "editor.accessibilitySupport": "off",
     "editor.minimap.renderCharacters": false,
     "editor.guides.bracketPairsHorizontal": true,
     "editor.guides.bracketPairs": true,
@@ -77,9 +78,9 @@
                     "keyword.other.unit.px.css",
                     "constant.numeric.decimal.js",
                     "constant.numeric.json",
-                    "comment.block",
+                    // "comment.block",
                     "entity.other.attribute-name.class.css",
-                    "comment.block.js",
+                    // "comment.block.js",
                     "comment.line.double-slash.js"
                 ],
                 "settings": {
@@ -170,6 +171,7 @@
         "Jetbrains",
         "Lilex",
         "Salamun",
+        "Swal",
         "synthwave",
         "tabnine",
         "tailwindcss"
@@ -178,5 +180,7 @@
     "console-ninja.featureSet": "Community",
     "colorize.languages": ["javascript", "javascriptreact", "HTML5", "HTML", "CSS", "JSON", "JSONC"],
     "colorize.colorized_colors": ["HEXA", "RGB", "HSL", "BROWSERS_COLORS", "ARGB"],
-    "liveServer.settings.donotShowInfoMsg": true
+    "liveServer.settings.donotShowInfoMsg": true,
+    "tabnine.experimentalAutoImports": true,
+    "diffEditor.ignoreTrimWhitespace": true
 }
