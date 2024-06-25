@@ -31,30 +31,32 @@
 
 16. [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
 
+17. [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
+
 ----------
 
-17. [advanced-new-file](https://marketplace.visualstudio.com/items?itemName=patbenatar.advanced-new-file)
+18. [advanced-new-file](https://marketplace.visualstudio.com/items?itemName=patbenatar.advanced-new-file)
 
-18. [CodeSnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap)
+19. [CodeSnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap)
 
-19. [colorize](https://marketplace.visualstudio.com/items?itemName=kamikillerto.vscode-colorize)
+20. [colorize](https://marketplace.visualstudio.com/items?itemName=kamikillerto.vscode-colorize)
 
-20. [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+21. [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
-21. [Image preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)
+22. [Image preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)
 
-22. [IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
+23. [IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
 
-23. [JavaScript Booster](https://marketplace.visualstudio.com/items?itemName=sburg.vscode-javascript-booster)
+24. [JavaScript Booster](https://marketplace.visualstudio.com/items?itemName=sburg.vscode-javascript-booster)
 
-24. [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+25. [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
-25. [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+26. [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
 
-26. [React Extension Pack](https://marketplace.visualstudio.com/items?itemName=jawandarajbir.react-vscode-extension-pack)
+27. [React Extension Pack](https://marketplace.visualstudio.com/items?itemName=jawandarajbir.react-vscode-extension-pack)
 
-27. [Reactjs code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets)
+28. [Reactjs code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets)
 
-28. [Select Compare Tabs](https://marketplace.visualstudio.com/items?itemName=outofsync42.select-compare-tabs)
+29. [Select Compare Tabs](https://marketplace.visualstudio.com/items?itemName=outofsync42.select-compare-tabs)
 
-29. [Tailwind Docs](https://marketplace.visualstudio.com/items?itemName=austenc.tailwind-docs)
+30. [Tailwind Docs](https://marketplace.visualstudio.com/items?itemName=austenc.tailwind-docs)
