@@ -156,7 +156,6 @@
     "prettier.bracketSameLine": false,
     "prettier.printWidth": 130,
     "prettier.tabWidth": 4,
-    "prettier.semi": false,
     "prettier.trailingComma": "all",
     // "liveServer.settings.donotShowInfoMsg": true,
     // "tabnine.experimentalAutoImports": true,
@@ -169,12 +168,15 @@
         "esbenp",
         "Fira",
         "Jetbrains",
+        "liga",
         "Lilex",
         "Salamun",
+        "signup",
         "Swal",
         "synthwave",
         "tabnine",
-        "tailwindcss"
+        "tailwindcss",
+        "ures"
     ],
     "terminal.integrated.env.windows": {},
     "console-ninja.featureSet": "Community",
@@ -182,5 +184,11 @@
     "colorize.colorized_colors": ["HEXA", "RGB", "HSL", "BROWSERS_COLORS", "ARGB"],
     "liveServer.settings.donotShowInfoMsg": true,
     "tabnine.experimentalAutoImports": true,
-    "diffEditor.ignoreTrimWhitespace": true
+    "diffEditor.ignoreTrimWhitespace": true,
+    "tabnine.ignore_directories": ["node_modules", "dist", "build"],
+    "sync.autoDownload": false, // sync settings
+    "sync.gist": "1150601fa1ff29bf3e788bf035051ad7", // sync settings gist
+    "workbench.editor.customLabels.patterns": {
+        "**/{layout,page}.jsx": "${dirname} ${filename}"
+    }
 }
