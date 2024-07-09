@@ -125,6 +125,10 @@
     "workbench.sideBar.location": "right",
     "workbench.activityBar.location": "default",
     "workbench.list.smoothScrolling": true,
+    "workbench.editor.customLabels.patterns": {
+        "**/{layout,page}.jsx": "${dirname} ${filename}",
+        "**/{route}.js": "${dirname} ${filename}"
+    },
     // "workbench.colorCustomizations": {
     //     // "terminal.background": "#1D2021",
     //     "terminal.foreground": "#A89984",
@@ -160,6 +164,7 @@
     // "liveServer.settings.donotShowInfoMsg": true,
     // "tabnine.experimentalAutoImports": true,
     "cSpell.userWords": [
+        "ARGB",
         "autohide",
         "Cascadia",
         "Consolas",
@@ -187,8 +192,5 @@
     "diffEditor.ignoreTrimWhitespace": true,
     "tabnine.ignore_directories": ["node_modules", "dist", "build"],
     "sync.autoDownload": false, // sync settings
-    "sync.gist": "1150601fa1ff29bf3e788bf035051ad7", // sync settings gist
-    "workbench.editor.customLabels.patterns": {
-        "**/{layout,page}.jsx": "${dirname} ${filename}"
-    }
+    "sync.gist": "1150601fa1ff29bf3e788bf035051ad7" // sync settings gist
 }
