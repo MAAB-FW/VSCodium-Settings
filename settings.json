@@ -172,6 +172,7 @@
         "donot",
         "esbenp",
         "Fira",
+        "HEXA",
         "Jetbrains",
         "liga",
         "Lilex",
@@ -189,8 +190,6 @@
     "colorize.colorized_colors": ["HEXA", "RGB", "HSL", "BROWSERS_COLORS", "ARGB"],
     "liveServer.settings.donotShowInfoMsg": true,
     "tabnine.experimentalAutoImports": true,
-    "diffEditor.ignoreTrimWhitespace": true,
     "tabnine.ignore_directories": ["node_modules", "dist", "build"],
-    "sync.autoDownload": false, // sync settings
-    "sync.gist": "1150601fa1ff29bf3e788bf035051ad7" // sync settings gist
+    "diffEditor.ignoreTrimWhitespace": true
 }
