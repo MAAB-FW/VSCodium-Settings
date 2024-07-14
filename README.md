@@ -31,7 +31,7 @@
 
 16. [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
 
-17. [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
+17. [Syncing](https://marketplace.visualstudio.com/items?itemName=nonoroazoro.syncing)
 
 ----------
 
