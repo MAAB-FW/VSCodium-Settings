@@ -95,27 +95,24 @@
     "editor.fontFamily": "MonoLisa, Fira Code iScript, Lilex, Fira Code, Jetbrains Mono, Operator Mono, Source Code Pro, Consolas, Courier New, Monospace, Cascadia Code",
     /* <------------ Formatter ------------> */
     "[html]": {
-        // "editor.defaultFormatter": "vscode.html-language-features"
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[css]": {
-        // "editor.defaultFormatter": "vscode.css-language-features"
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[javascript]": {
-        // "editor.defaultFormatter": "vscode.typescript-language-features"
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[javascriptreact]": {
-        // "editor.defaultFormatter": "vscode.typescript-language-features"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[jsonc]": {
-        // "editor.defaultFormatter": "vscode.json-language-features"
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[json]": {
-        // "editor.defaultFormatter": "vscode.json-language-features"
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     /* <------------ Workbench ------------> */
@@ -190,6 +187,6 @@
     "colorize.colorized_colors": ["HEXA", "RGB", "HSL", "BROWSERS_COLORS", "ARGB"],
     "liveServer.settings.donotShowInfoMsg": true,
     "tabnine.experimentalAutoImports": true,
-    "tabnine.ignore_directories": ["node_modules", "dist", "build"],
-    "diffEditor.ignoreTrimWhitespace": true
+    "diffEditor.ignoreTrimWhitespace": true,
+    "tabnine.ignore_directories": ["node_modules", "dist", "build"]
 }
