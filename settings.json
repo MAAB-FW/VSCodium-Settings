@@ -124,6 +124,7 @@
     "workbench.list.smoothScrolling": true,
     "workbench.editor.customLabels.patterns": {
         "**/{layout,page}.jsx": "${dirname} ${filename}",
+        "**/{layout,page}.tsx": "${dirname} ${filename}",
         "**/{route}.js": "${dirname} ${filename}"
     },
     // "workbench.colorCustomizations": {
@@ -157,7 +158,7 @@
     "prettier.bracketSameLine": false,
     "prettier.printWidth": 130,
     "prettier.tabWidth": 4,
-    "prettier.trailingComma": "all",
+    "prettier.trailingComma": "es5",
     // "liveServer.settings.donotShowInfoMsg": true,
     // "tabnine.experimentalAutoImports": true,
     "cSpell.userWords": [
@@ -174,6 +175,7 @@
         "liga",
         "Lilex",
         "Salamun",
+        "signin",
         "signup",
         "Swal",
         "synthwave",
