@@ -44,7 +44,7 @@
 
 ---
 
-21. [advanced-new-file](https://marketplace.visualstudio.com/items?itemName=patbenatar.advanced-new-file)
+22. [advanced-new-file](https://marketplace.visualstudio.com/items?itemName=patbenatar.advanced-new-file)
 
 1. [CodeSnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap)
 
