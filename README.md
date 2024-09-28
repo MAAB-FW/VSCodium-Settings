@@ -20,6 +20,8 @@
 
 1. [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
+1. [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+
 1. [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
 
 1. [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
@@ -48,8 +50,6 @@
 
 1. [colorize](https://marketplace.visualstudio.com/items?itemName=kamikillerto.vscode-colorize)
 
-1. [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-
 1. [Image preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)
 
 1. [IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
@@ -61,8 +61,6 @@
 1. [Nextjs snippets](https://marketplace.visualstudio.com/items?itemName=PulkitGangwar.nextjs-snippets)
 
 1. [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
-
-1. [React Extension Pack](https://marketplace.visualstudio.com/items?itemName=jawandarajbir.react-vscode-extension-pack)
 
 1. [Reactjs code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets)
 
