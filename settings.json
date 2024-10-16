@@ -1,133 +1,139 @@
 {
-    /* <------------ General Settings ------------> */
-    "update.mode": "manual",
-    "editor.fontSize": 16,
-    "editor.tabSize": 4,
-    "files.autoSave": "afterDelay",
-    "editor.wordWrap": "on",
-    "editor.formatOnSave": true,
-    "editor.minimap.autohide": true,
-    "editor.minimap.showSlider": "always",
-    "editor.accessibilitySupport": "off",
-    "editor.minimap.renderCharacters": false,
-    "editor.guides.bracketPairsHorizontal": true,
-    "editor.guides.bracketPairs": true,
-    "editor.smoothScrolling": true,
-    "editor.cursorSmoothCaretAnimation": "on",
-    "editor.cursorBlinking": "expand",
-    "editor.cursorStyle": "line",
-    "editor.linkedEditing": false,
-    // "editor.fontLigatures": true,
-    "editor.fontLigatures": "'feat','ures','ss02','ss07','ss08','liga','ss10','ss03','ss13'",
-    "editor.stickyScroll.enabled": false,
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
-    "emmet.triggerExpansionOnTab": true,
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
-    },
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-            {
-                // the following elements will be in italic //
-                "scope": [
-                    "comment",
-                    // "comment.block.html",
-                    "keyword.control.import.js", // import
-                    "keyword.control.export.js", // export
-                    "keyword.control.from.js", // from
-                    // "constant", // String, Number, Boolean…, this, super
-                    "storage.modifier", // static keyword
-                    "storage.type.class", // class keyword
-                    "entity.other.attribute-name", // html attributes
-                    "fenced_code.block.language.markdown" // markdown language modifier
-                ],
-                "settings": {
-                    "fontStyle": "italic"
-                }
-            },
-            {
-                // the following elements will be displayed in bold
-                "scope": [
-                    "entity.name.function.js",
-                    "entity.name.type.class" // class names
-                ],
-                "settings": {
-                    "fontStyle": "bold"
-                }
-            },
-            {
-                // the following elements will be displayed in bold and italic
-                "scope": [
-                    "entity.other.attribute-name.html",
-                    "storage.type.js",
-                    "entity.name.section.markdown", // markdown headlines
-                    "storage.type.function.js"
-                ],
-                "settings": {
-                    "fontStyle": "italic bold"
-                }
-            },
-            {
-                // the following elements will be excluded from italics
-                "scope": [
-                    //   (VSCode has some defaults for italics)
-                    "invalid",
-                    "keyword.operator",
-                    "constant.numeric.css",
-                    "keyword.other.unit.px.css",
-                    "constant.numeric.decimal.js",
-                    "constant.numeric.json",
-                    // "comment.block",
-                    "entity.other.attribute-name.class.css",
-                    // "comment.block.js",
-                    "comment.line.double-slash.js"
-                ],
-                "settings": {
-                    "fontStyle": ""
-                }
-            }
-        ]
-    },
-    "editor.quickSuggestions": {
-        "strings": "on"
-    },
-    "editor.fontFamily": "MonoLisa, Fira Code iScript, Lilex, Fira Code, Jetbrains Mono, Operator Mono, Source Code Pro, Consolas, Courier New, Monospace, Cascadia Code",
-    /* <------------ Formatter ------------> */
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[css]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    /* <------------ Workbench ------------> */
-    "workbench.colorTheme": "codeSTACKr Theme",
-    "workbench.iconTheme": "vscode-icons",
-    "workbench.startupEditor": "none",
-    "workbench.sideBar.location": "right",
-    "workbench.activityBar.location": "default",
-    "workbench.list.smoothScrolling": true,
-    "workbench.editor.customLabels.patterns": {
-        "**/{layout,page}.jsx": "${dirname} ${filename}",
-        "**/{layout,page}.tsx": "${dirname} ${filename}",
-        "**/{route}.js": "${dirname} ${filename}"
-    },
-    // "workbench.colorCustomizations": {
+  /* <------------ General Settings ------------> */
+  "update.mode": "manual",
+  "window.restoreWindows": "preserve",
+  "editor.fontSize": 16,
+  "editor.tabSize": 2,
+  "files.autoSave": "afterDelay",
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "editor.minimap.autohide": true,
+  "editor.minimap.showSlider": "always",
+  "editor.accessibilitySupport": "off",
+  "editor.minimap.renderCharacters": false,
+  "editor.guides.bracketPairsHorizontal": true,
+  "editor.guides.bracketPairs": true,
+  "editor.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "expand",
+  "editor.cursorStyle": "line",
+  "editor.linkedEditing": false,
+  // "editor.fontLigatures": true,
+  "editor.fontLigatures": "'feat','ures','ss02','ss07','ss08','liga','ss10','ss03','ss13'",
+  "editor.stickyScroll.enabled": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        // the following elements will be in italic //
+        "scope": [
+          "comment",
+          // "comment.block.html",
+          "keyword.control.import.js", // import
+          "keyword.control.export.js", // export
+          "keyword.control.from.js", // from
+          // "constant", // String, Number, Boolean…, this, super
+          "storage.modifier", // static keyword
+          "storage.type.class", // class keyword
+          "entity.other.attribute-name", // html attributes
+          "fenced_code.block.language.markdown" // markdown language modifier
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        // the following elements will be displayed in bold
+        "scope": [
+          "entity.name.function.js",
+          "entity.name.type.class" // class names
+        ],
+        "settings": {
+          "fontStyle": "bold"
+        }
+      },
+      {
+        // the following elements will be displayed in bold and italic
+        "scope": [
+          "entity.other.attribute-name.html",
+          "storage.type.js",
+          "entity.name.section.markdown", // markdown headlines
+          "storage.type.function.js"
+        ],
+        "settings": {
+          "fontStyle": "italic bold"
+        }
+      },
+      {
+        // the following elements will be excluded from italics
+        "scope": [
+          //   (VSCode has some defaults for italics)
+          "invalid",
+          "keyword.operator",
+          "constant.numeric.css",
+          "keyword.other.unit.px.css",
+          "constant.numeric.decimal.js",
+          "constant.numeric.json",
+          // "comment.block",
+          "entity.other.attribute-name.class.css",
+          // "comment.block.js",
+          "comment.line.double-slash.js"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "editor.fontFamily": "MonoLisa, Fira Code iScript, Lilex, Fira Code, Jetbrains Mono, Operator Mono, Source Code Pro, Consolas, Courier New, Monospace, Cascadia Code",
+  /* <------------ Formatter ------------> */
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  /* <------------ Workbench ------------> */
+  "workbench.colorTheme": "codeSTACKr Theme",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.startupEditor": "none",
+  "workbench.sideBar.location": "right",
+  "workbench.activityBar.location": "default",
+  "workbench.list.smoothScrolling": true,
+  "workbench.editor.customLabels.patterns": {
+    "**/{layout,page}.jsx": "${dirname} ${filename}",
+    "**/{layout,page}.tsx": "${dirname} ${filename}",
+    "**/{route}.js": "${dirname} ${filename}",
+    "**/{route}.ts": "${dirname} ${filename}"
+  },
+  "workbench.colorCustomizations": {
+    "sideBar.border": "#ff0000",
+    "tab.activeBackground": "#333842"
     //     // "terminal.background": "#1D2021",
     //     "terminal.foreground": "#A89984",
     //     "terminalCursor.background": "#A89984",
@@ -148,47 +154,76 @@
     //     "terminal.ansiRed": "#FB543F",
     //     "terminal.ansiWhite": "#A89984",
     //     "terminal.ansiYellow": "#FAC03B"
-    // },
-    /* <------------ Terminal ------------> */
-    "terminal.integrated.fontSize": 16,
-    "terminal.integrated.smoothScrolling": true,
-    "terminal.integrated.enableMultiLinePasteWarning": "never",
-    "terminal.integrated.fontFamily": "MonoLisa, Jetbrains Mono, Fira Code, Lilex, Operator Mono, Source Code Pro, Consolas, Courier New, Monospace, Cascadia Code",
-    /* <------------ Extensions ------------> */
-    "prettier.bracketSameLine": false,
-    "prettier.printWidth": 130,
-    "prettier.tabWidth": 4,
-    "prettier.trailingComma": "es5",
-    // "liveServer.settings.donotShowInfoMsg": true,
-    // "tabnine.experimentalAutoImports": true,
-    "cSpell.userWords": [
-        "ARGB",
-        "autohide",
-        "Cascadia",
-        "Consolas",
-        "daisyui",
-        "donot",
-        "esbenp",
-        "Fira",
-        "HEXA",
-        "Jetbrains",
-        "liga",
-        "Lilex",
-        "Salamun",
-        "signin",
-        "signup",
-        "Swal",
-        "synthwave",
-        "tabnine",
-        "tailwindcss",
-        "ures"
-    ],
-    "terminal.integrated.env.windows": {},
-    "console-ninja.featureSet": "Community",
-    "colorize.languages": ["javascript", "javascriptreact", "HTML5", "HTML", "CSS", "JSON", "JSONC"],
-    "colorize.colorized_colors": ["HEXA", "RGB", "HSL", "BROWSERS_COLORS", "ARGB"],
-    "liveServer.settings.donotShowInfoMsg": true,
-    "tabnine.experimentalAutoImports": true,
-    "diffEditor.ignoreTrimWhitespace": true,
-    "tabnine.ignore_directories": ["node_modules", "dist", "build"]
+  },
+  /* <------------ Terminal ------------> */
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.env.windows": {},
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "terminal.integrated.fontFamily": "MonoLisa, Jetbrains Mono, Fira Code, Lilex, Operator Mono, Source Code Pro, Consolas, Courier New, Monospace, Cascadia Code",
+  /* <------------ Extensions ------------> */
+  "console-ninja.featureSet": "Community",
+  "extensions.ignoreRecommendations": true,
+  "extensions.autoUpdate": false,
+  "prettier.bracketSameLine": false,
+  // "prettier.printWidth": 130,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "es5",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "tabnine.experimentalAutoImports": true,
+  "tabnine.ignore_directories": ["node_modules", "dist", "build"],
+  "cSpell.userWords": [
+    "ARGB",
+    "autohide",
+    "bookid",
+    "Cascadia",
+    "Consolas",
+    "daisyui",
+    "donot",
+    "esbenp",
+    "Fira",
+    "HEXA",
+    "Jetbrains",
+    "liga",
+    "Lilex",
+    "Salamun",
+    "signin",
+    "signup",
+    "Swal",
+    "synthwave",
+    "tabnine",
+    "tailwindcss",
+    "ures"
+  ],
+
+  "colorize.languages": [
+    "javascript",
+    "javascriptreact",
+    "HTML5",
+    "HTML",
+    "CSS",
+    "JSON",
+    "JSONC"
+  ],
+  "colorize.colorized_colors": [
+    "HEXA",
+    "RGB",
+    "HSL",
+    "BROWSERS_COLORS",
+    "ARGB"
+  ],
+  "diffEditor.ignoreTrimWhitespace": true,
+  "editor.inlineSuggest.suppressSuggestions": true,
+  // "recommendations": [
+  //   "austenc.tailwind-docs",
+  //   "sburg.vscode-javascript-booster",
+  //   "visualstudioexptteam.vscodeintellicode",
+  //   "patbenatar.advanced-new-file",
+  //   "kamikillerto.vscode-colorize",
+  //   "quicktype.quicktype",
+  //   "xabikos.reactsnippets",
+  //   "outofsync42.select-compare-tabs",
+  //   "pulkitgangwar.nextjs-snippets",
+  //   "ritwickdey.liveserver"
+  // ]
 }
