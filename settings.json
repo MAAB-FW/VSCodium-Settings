@@ -2,9 +2,10 @@
   /* <------------ General Settings ------------> */
   "update.mode": "manual",
   "window.restoreWindows": "preserve",
+  "window.commandCenter": false,
+  "files.autoSave": "afterDelay",
   "editor.fontSize": 16,
   "editor.tabSize": 2,
-  "files.autoSave": "afterDelay",
   "editor.wordWrap": "on",
   "editor.formatOnSave": true,
   "editor.minimap.autohide": true,
@@ -21,6 +22,7 @@
   // "editor.fontLigatures": true,
   "editor.fontLigatures": "'feat','ures','ss02','ss07','ss08','liga','ss10','ss03','ss13'",
   "editor.stickyScroll.enabled": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "emmet.triggerExpansionOnTab": true,
@@ -42,7 +44,32 @@
           "storage.modifier", // static keyword
           "storage.type.class", // class keyword
           "entity.other.attribute-name", // html attributes
-          "fenced_code.block.language.markdown" // markdown language modifier
+          "fenced_code.block.language.markdown", // markdown language modifier
+          //-->
+          "keyword.control.conditional",
+          "meta.object-literal.key",
+          "variable.other.readwrite.alias",
+          "variable.other.constant",
+          "variable.other.object",
+          "variable.object.property",
+          "variable.other.property",
+          "variable.other.object",
+          "punctuation.accessor.optional",
+          "meta.brace.square",
+          "meta.object-binding-pattern-variable",
+          "punctuation.definition.binding-pattern.object",
+          "punctuation.definition.parameters",
+          "punctuation.definition.tag",
+          "punctuation.definition.block",
+          "punctuation.separator.comma",
+          "punctuation.terminator.statement",
+          "meta.brace.round",
+          "storage.type.function.arrow",
+          "constant.language.boolean",
+          "keyword.control.trycatch",
+          "punctuation.section.embedded",
+          "meta.jsx.children",
+          "keyword.control.default"
         ],
         "settings": {
           "fontStyle": "italic"
@@ -82,8 +109,14 @@
           "constant.numeric.json",
           // "comment.block",
           "entity.other.attribute-name.class.css",
-          // "comment.block.js",
-          "comment.line.double-slash.js"
+          "comment.line.double-slash.js",
+          // -->
+          "support.class.component",
+          "string.quoted.double",
+          "variable.parameter",
+          "variable.other.readwrite",
+          "entity.name.tag",
+          "keyword.control.flow.js"
         ],
         "settings": {
           "fontStyle": ""
@@ -95,36 +128,13 @@
     "strings": "on"
   },
   "editor.fontFamily": "MonoLisa, Fira Code iScript, Lilex, Fira Code, Jetbrains Mono, Operator Mono, Source Code Pro, Consolas, Courier New, Monospace, Cascadia Code",
-  /* <------------ Formatter ------------> */
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
 
   /* <------------ Workbench ------------> */
-  "workbench.colorTheme": "codeSTACKr Theme",
-  "workbench.iconTheme": "vscode-icons",
   "workbench.startupEditor": "none",
   "workbench.sideBar.location": "right",
-  "workbench.activityBar.location": "default",
   "workbench.list.smoothScrolling": true,
+  "workbench.colorTheme": "Winter is Coming (Dark Blue)",
+  "workbench.iconTheme": "vscode-icons",
   "workbench.editor.customLabels.patterns": {
     "**/{layout,page}.jsx": "${dirname} ${filename}",
     "**/{layout,page}.tsx": "${dirname} ${filename}",
@@ -132,8 +142,8 @@
     "**/{route}.ts": "${dirname} ${filename}"
   },
   "workbench.colorCustomizations": {
-    "sideBar.border": "#ff0000",
-    "tab.activeBackground": "#333842"
+    // "sideBar.border": "#ff0000",
+    // "tab.activeBackground": "#333842"
     //     // "terminal.background": "#1D2021",
     //     "terminal.foreground": "#A89984",
     //     "terminalCursor.background": "#A89984",
@@ -162,7 +172,6 @@
   "terminal.integrated.enableMultiLinePasteWarning": "never",
   "terminal.integrated.fontFamily": "MonoLisa, Jetbrains Mono, Fira Code, Lilex, Operator Mono, Source Code Pro, Consolas, Courier New, Monospace, Cascadia Code",
   /* <------------ Extensions ------------> */
-  "console-ninja.featureSet": "Community",
   "extensions.ignoreRecommendations": true,
   "extensions.autoUpdate": false,
   "prettier.bracketSameLine": false,
@@ -212,13 +221,22 @@
     "BROWSERS_COLORS",
     "ARGB"
   ],
-  "diffEditor.ignoreTrimWhitespace": true,
+  "diffEditor.ignoreTrimWhitespace": false,
   "editor.inlineSuggest.suppressSuggestions": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "files.watcherExclude": {
+    "**/node_modules/*": true,
+    "**/build/*": true,
+    "**/dist/*": true
+  },
+  "console-ninja.featureSet": "Community",
+  "react-native-tools.showUserTips": true,
+
   // "recommendations": [
   //   "austenc.tailwind-docs",
-  //   "sburg.vscode-javascript-booster",
   //   "visualstudioexptteam.vscodeintellicode",
-  //   "patbenatar.advanced-new-file",
   //   "kamikillerto.vscode-colorize",
   //   "quicktype.quicktype",
   //   "xabikos.reactsnippets",
